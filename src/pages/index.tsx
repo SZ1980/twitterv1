@@ -1,13 +1,14 @@
 import { type NextPage } from "next";
+import NewTweetForm from "~/components/NewTweetForm";
 
 const Home: NextPage = () => {
 
   return (
     <>
-     <h1>Hi</h1>
+     <header><h1>Home</h1></header>
+     <NewTweetForm />
     </>
   );
 };
 
 export default Home;
-
